@@ -1,27 +1,17 @@
 modLoader = "javafml"
-loaderVersion = "${loader_version_range}"
+loaderVersion = "[47,)"
 license = "${mod_license}"
 [[mods]]
 modId = "gtoepp"
-version = "${mod_version}"
+version = "1.0.0"
 displayName = "${mod_name}"
 authors = "${mod_authors}"
 
 description = '''${mod_description}'''
 
 [[dependencies.gtoepp]]
-modId = "forge"
-mandatory = true
-versionRange = "${forge_version_range}"
-ordering = "NONE"
-side = "BOTH"
-[[dependencies.gtoepp]]
-modId = "minecraft"
-mandatory = true
-versionRange = "${minecraft_version_range}"
-ordering = "NONE"
-side = "BOTH"
-[[dependencies.gtoepp]]
 modId="gtocore"
-versionRange="[0.4.8,)"
+versionRange="[0.5.0,)"
 mandatory=true
+ordering="BEFORE"
+side="BOTH"
