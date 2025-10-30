@@ -1,6 +1,6 @@
 package org.com.gtoepp.platforms;
 
-import com.gtocore.common.machine.noenergy.PlatformBlockType;
+import com.gtocore.common.machine.noenergy.PlatformDeployment.PlatformBlockType;
 
 import com.gtolib.api.lang.CNEN;
 import com.gtolib.utils.RLUtils;
@@ -14,8 +14,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-import static com.gtocore.common.machine.noenergy.PlatformBlockType.PlatformBlockStructure.structure;
-import static com.gtocore.common.machine.noenergy.PlatformBlockType.PlatformPreset.preset;
+import static com.gtocore.common.machine.noenergy.PlatformDeployment.PlatformBlockType.PlatformBlockStructure.structure;
+import static com.gtocore.common.machine.noenergy.PlatformDeployment.PlatformBlockType.PlatformPreset.preset;
 
 public class PlatformPresets {
 

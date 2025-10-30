@@ -3,7 +3,7 @@ loaderVersion = "[47,)"
 license = "${mod_license}"
 [[mods]]
 modId = "gtoepp"
-version = "1.0.0"
+version = "1.0.1"
 displayName = "${mod_name}"
 authors = "${mod_authors}"
 
