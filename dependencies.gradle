@@ -8,8 +8,10 @@ dependencies {
 
     modImplementation("dev:terrific_trash_cans:1.0.0")
 
+    implementation("dev:fastcollection:1.0")
+
     modImplementation("dev:gtolib:1.0")
-    modImplementation("dev:gtocore:0.5.0")
+    modImplementation("dev:gtocore:0.5.1")
 //    modImplementation("dev.mineland:item-interactions-mod-forge+1.20.1:2.1.4")
 
     api(annotationProcessor("io.github.llamalad7:mixinextras-common:$project.mixinextras_version"))

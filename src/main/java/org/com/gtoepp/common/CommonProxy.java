@@ -6,13 +6,13 @@ import com.gtolib.api.lang.TraditionalChineseLanguageProvider;
 import com.gtolib.utils.ChineseConverter;
 
 import com.gregtechceu.gtceu.GTCEu;
-import com.gregtechceu.gtceu.utils.collection.O2OOpenCacheHashMap;
 
 import net.minecraftforge.common.data.LanguageProvider;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.event.lifecycle.FMLConstructModEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 
+import com.fast.fastcollection.O2OOpenCacheHashMap;
 import com.tterrag.registrate.providers.ProviderType;
 import org.com.gtoepp.platforms.PlatformPresets;
 

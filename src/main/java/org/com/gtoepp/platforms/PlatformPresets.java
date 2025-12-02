@@ -6,9 +6,10 @@ import com.gtolib.api.lang.CNEN;
 import com.gtolib.utils.RLUtils;
 
 import com.gregtechceu.gtceu.GTCEu;
-import com.gregtechceu.gtceu.utils.collection.O2OOpenCacheHashMap;
 
 import net.minecraft.resources.ResourceLocation;
+
+import com.fast.fastcollection.O2OOpenCacheHashMap;
 
 import java.util.ArrayList;
 import java.util.List;
