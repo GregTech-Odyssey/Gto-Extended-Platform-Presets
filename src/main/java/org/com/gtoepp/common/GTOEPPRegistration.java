@@ -22,7 +22,7 @@ public final class GTOEPPRegistration extends GTRegistrate {
     public final boolean gtm;
 
     private GTOEPPRegistration(boolean gtm) {
-        super(gtm ? GTCEu.MOD_ID : GTOEpp.MODID);
+        super(gtm ? GTCEu.MOD_ID : GTOEpp.MOD_ID);
         this.gtm = gtm;
     }
 }

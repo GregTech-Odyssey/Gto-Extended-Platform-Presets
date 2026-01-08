@@ -1,0 +1,26 @@
+{
+  "name": "sy_1_batch_construction_template_by_config",
+  "displayName": "SY-1批量建造模板 | SY-1 batch construction template",
+  "description": "涵盖大部分使用场景的建筑模板(这是通过配置注册的示范) | Building templates covering most usage scenarios(This is a demonstration of registration through configuration)",
+  "source": "疏影",
+  "structures": [
+    {
+      "name": "rubiks_cube_factory",
+      "type": "factory",
+      "displayName": "魔方厂房 | Rubik's Cube Factory",
+      "resource": "gtoepp:platforms/sy_1/rubiks_cube_factory",
+      "symbolMap": "gtoepp:platforms/sy_1/rubiks_cube_factory.json",
+      "material_0": 800,
+      "material_1": 800
+    },
+    {
+      "name": "starry_sky_theme_suite_earth_style",
+      "type": "factory",
+      "displayName": "星空主题套房 - 地球款 | Starry Sky Theme Suite - Earth Style",
+      "resource": "gtoepp:platforms/sy_1/starry_sky_theme_suite_earth_style",
+      "symbolMap": "gtoepp:platforms/sy_1/starry_sky_theme_suite_earth_style.json",
+      "material_0": 800,
+      "material_1": 800
+    }
+  ]
+}

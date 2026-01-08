@@ -10,6 +10,7 @@ import com.gregtechceu.gtceu.GTCEu;
 import net.minecraft.resources.ResourceLocation;
 
 import com.fast.fastcollection.O2OOpenCacheHashMap;
+import org.com.gtoepp.config.CustomRegistration;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -49,7 +50,7 @@ public class PlatformPresets {
     }
 
     static {
-
+        CustomRegistration.register();
         // SY-1批量建造模板
         {
             extendedPresets.add(
